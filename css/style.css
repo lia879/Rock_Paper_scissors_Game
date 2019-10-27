@@ -1,0 +1,91 @@
+html {
+    font-size: 10px;
+    background-color: rgb(20, 20, 20);
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  }
+ 
+
+  .container{
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ui {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0.5rem 0.5rem rgba(53, 53, 53, 0.534);
+    border-radius: 0.75rem;
+    background-color: rgb(101, 103, 119);
+  }
+  
+  .control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .main-header{
+    text-align: center;
+  }
+  
+  .scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  .score-tile {
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border:  rgb(87, 255, 213) solid 0.25rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem rgba(53, 53, 53, 0.534);
+    min-height: 5rem;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    padding: 1rem;
+    text-align: center;
+    min-height: 2rem;
+  }
+  
+  button {
+    border: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(64, 106, 139);
+    border: solid rgb(87, 255, 213) 0.25rem;
+    box-shadow: 0.25rem 0.25rem rgba(53, 53, 53, 0.534);
+    padding: 1rem 1.5rem;
+    margin: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #reset {
+    opacity: 0;
+  }
+  
+  #game-end-panel {
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+  }
